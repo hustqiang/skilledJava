@@ -6,8 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="practise" />
+        <module name="ssm-entity" />
+        <module name="ssm-parent" />
+        <module name="ssm-service" />
+        <module name="ssm-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ssm-entity" target="1.5" />
+      <module name="ssm-parent" target="1.5" />
+      <module name="ssm-service" target="1.5" />
+      <module name="ssm-web" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
